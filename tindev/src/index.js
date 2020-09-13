@@ -7,6 +7,11 @@
  */
 
 import React from 'react';
+import { YelllowBox } from 'react-native';
+
+YelllowBox.ignoreWarnings([
+  'Unrecognized WebSocket'
+])
 
 import Routes from './routes';
 function App() {
